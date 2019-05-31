@@ -14,5 +14,5 @@ def parametr_kwargs(argument, **kwargs):
 
 parametr_kwargs(dodatkowy=48, nastepny=111, argument=12)
 
-# argument: 12
+# argument: 12g
 # zawartość kwargs: {'dodatkowy': 48, 'nastepny': 111}
