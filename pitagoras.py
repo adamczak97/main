@@ -7,11 +7,12 @@ lista.sort()
 for liczba in lista:
     print(liczba)
 print(end='')
-
+import os
+clear = lambda: os.system('cls')
+clear()
 a1 = lista[0]
 b1 = lista[1]
 c1 = lista[2]
-
 if a1+b1 <= c1:
     print ("Trójkąt ma nieodpowiednie wymiary",end='')
 else:
